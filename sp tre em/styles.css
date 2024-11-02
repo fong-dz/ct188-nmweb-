@@ -1,0 +1,261 @@
+
+
+.header-brand{
+    background-color: white;
+}
+
+.button-search{
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+.icon-navbar{
+    text-align: center;
+    justify-content:space-between ;
+    margin-right: 0px;
+   
+}
+
+
+
+.navbar {
+    padding: 0px;
+    background-color: #fff !important;
+   
+    
+}
+/* chỉnh nút thu nhỏ của navabr thành màu trắng */
+
+
+
+button.navbar-toggler{
+    font-size: 20px;
+    padding: 0px;
+}
+
+/* input.form-control,
+.button-search{
+    border-color: #58cbca;
+   
+} */
+
+.fa-magnifying-glass{
+    color: #58cbca;
+}
+
+
+input.form-control{
+    border: none;
+    border-radius: 0px;
+}
+
+.box-search{
+    border-radius: 5px;
+    border: solid #58cbca 2px;
+   
+}
+.logo-navbar{
+    padding: 0px;
+}
+
+.btn{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.icon-shopping,
+.icon-user,
+.btn{
+    text-align: justify;
+    color: #58cbca;
+    
+}
+
+.btn:hover{
+    color: #fdec7b;
+    background-color: #58cbca;
+}
+
+
+
+.list-item{
+    height: 200px;
+    gap: 20px;
+}
+
+.navbar-logo{
+    height: 30px;
+}
+
+/* button up to top */
+.footer-top {
+    color: #fdec7b;
+    z-index: 100;
+    
+    padding: 10px;
+    right: 10px;
+    bottom: 5px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* bo góc banner */
+.carousel-inner img {
+    border-radius: 5px; 
+}
+
+ /*   */
+.mau-tim{
+    color: #6755d8;
+}
+
+.nen-vang{
+
+}
+
+.mau-vang{
+    color: #fdec7b;
+}
+
+ .nen-xanh{
+    background-color: #58cbca;
+}
+
+.mau-xanh{
+    color: #58cbca;
+}
+
+/* mail dưới footer */
+.input-group{
+    border: #58cbca solid 1px;
+    border-radius: 7px;
+}
+
+input.form-control::placeholder{
+    color: #58cbca;
+}
+
+
+.nen-xanhnhat{
+    background-color: #c4fcfb;
+}
+
+
+/* .btn-brand{
+    
+    height: 2rem;
+} */
+
+
+/* icon dưới footer */
+.btn-brand {
+    display: inline-flex; /* Sử dụng flexbox để căn giữa nội dung */
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    width: 60px; /* Đặt chiều rộng cho nút */
+    /* Đặt chiều cao cho nút */
+    overflow: hidden; /* Ẩn phần nội dung vượt ra ngoài */
+  }
+
+  .btn-brand img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước nút */
+    max-height: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước nút */
+    object-fit: contain; /* Giữ tỷ lệ khung hình của hình ảnh */
+  }
+
+/* ảnh banner */
+
+
+
+
+main{
+    margin-top: 99px;
+}
+
+
+
+.link-connect-list,
+.link-connect{
+    
+    text-decoration: none;
+}
+
+.link-connect:hover{
+    text-decoration:underline;       /* trùng với màu chữ*/
+    text-underline-offset: 0.25em;   /* gạch dưới cách chữ 0.25em  */
+    color: #6755d8;
+
+
+}
+
+.link-connect{
+    color: #212529;
+}
+
+
+/* .icon-connect{
+   
+    background: #fff;
+    color: #6755d8;
+    padding: 8px;
+    border-radius: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+
+
+/* .hero__socials a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 2px solid #e5e7eb;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+} */
+
+/* .icon-connect:hover{
+    color: #58cbca;
+    background: #fdec7b;
+    
+}  */
+
+
+
+@media (min-width: 438px) {
+    .navbar-logo{
+        height: 42px;
+    }
+
+    .box-search,
+    .icon-shopping,
+    .icon-user{
+        height: 37px;
+    }
+} 
+
+@media (min-width: 576px) {
+    .navbar-logo{
+        height: 44px;
+    }
+} 
+
+@media (min-width: 768px) {
+    .navbar-logo{
+        height: 40px;
+    }
+} 
+
+
+@media (min-width: 992px) {
+    .navbar-logo{
+        height: 48px;
+    }
+} 
