@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 
 .header-brand{
@@ -67,13 +68,13 @@ input.form-control{
 
 .icon-shopping,
 .icon-user,
-.btn{
+.btn-hover{
     text-align: justify;
     color: #58cbca;
     
 }
 
-.btn:hover{
+.btn-hover:hover{
     color: #fdec7b;
     background-color: #58cbca;
 }
@@ -90,7 +91,7 @@ input.form-control{
 }
 
 /* button up to top */
-.footer-top {
+.back-to-top {
     color: #fdec7b;
     z-index: 100;
     
@@ -102,7 +103,13 @@ input.form-control{
     height: 50px;
 }
 
+.mau-nen-xanhnhat{
+    background-color: #f0f4f8;
+}
 
+.nen-xanhnhat{
+    background-color: #c4fcfb;
+}
 
 /* bo góc banner */
 .carousel-inner img {
@@ -129,6 +136,9 @@ input.form-control{
 .mau-xanh{
     color: #58cbca;
 }
+.mau-xanh:hover{
+    color: #6755d8;
+}
 
 /* mail dưới footer */
 .input-group{
@@ -141,9 +151,19 @@ input.form-control::placeholder{
 }
 
 
-.nen-xanhnhat{
-    background-color: #c4fcfb;
-}
+
+/* hiệu ứng rê chuột */
+
+.hover-effect {
+    transition: transform 0.3s;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    
+  }
+  
 
 
 /* .btn-brand{
@@ -170,7 +190,9 @@ input.form-control::placeholder{
 
 /* ảnh banner */
 
-
+a{
+    text-decoration: none;
+}
 
 
 main{
@@ -251,7 +273,13 @@ main{
     .navbar-logo{
         height: 40px;
     }
-} 
+
+    .row-reverse {
+        flex-direction: row-reverse; /* Đảo ngược chiều hàng */
+    }
+}
+
+   
 
 
 @media (min-width: 992px) {
